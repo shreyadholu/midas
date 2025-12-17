@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.jpmc.midascore.TaskTwoTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.002 s <<< FAILURE! -- in com.jpmc.midascore.TaskTwoTests
-com.jpmc.midascore.TaskTwoTests.task_two_verifier -- Time elapsed: 0.200 s <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.943 s <<< FAILURE! -- in com.jpmc.midascore.TaskTwoTests
+com.jpmc.midascore.TaskTwoTests.task_two_verifier -- Time elapsed: 1.078 s <<< ERROR!
 org.apache.kafka.common.errors.SerializationException: Can't convert value of class com.jpmc.midascore.foundation.Transaction to class org.apache.kafka.common.serialization.StringSerializer specified in value.serializer
 	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:1003)
 	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:947)
