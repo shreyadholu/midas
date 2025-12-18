@@ -12,7 +12,6 @@ public class TransactionListener {
         groupId = "midas-core-group"
     )
     public void listen(Transaction transaction) {
-        // Put a breakpoint on the line below when debugging
-        // Just receiving the transaction is enough for Task 2
+        System.out.println("Received transaction: " + transaction);
     }
 }
