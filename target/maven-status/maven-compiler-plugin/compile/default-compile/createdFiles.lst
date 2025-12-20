@@ -4,6 +4,7 @@ com\jpmc\midascore\component\DatabaseConduit.class
 com\jpmc\midascore\repository\TransactionRepository.class
 com\jpmc\midascore\entity\UserRecord.class
 com\jpmc\midascore\component\TransactionListener.class
+com\jpmc\midascore\component\BalanceController.class
 com\jpmc\midascore\entity\TransactionRecord.class
 com\jpmc\midascore\foundation\Incentive.class
 com\jpmc\midascore\MidasCoreApplication.class
