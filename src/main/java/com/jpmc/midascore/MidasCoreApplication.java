@@ -12,6 +12,7 @@ public class MidasCoreApplication {
         SpringApplication.run(MidasCoreApplication.class, args);
     }
 
+    
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();

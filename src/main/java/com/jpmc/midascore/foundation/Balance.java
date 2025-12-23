@@ -18,6 +18,7 @@ public class Balance {
         this.amount = amount;
     }
 
+    
     @Override
     public String toString() {
         return "Balance{amount=" + amount + "}";

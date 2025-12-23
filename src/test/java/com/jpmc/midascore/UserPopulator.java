@@ -10,6 +10,7 @@ public class UserPopulator {
     @Autowired
     private FileLoader fileLoader;
 
+
     @Autowired
     private DatabaseConduit databaseConduit;
 
@@ -25,6 +26,7 @@ public class UserPopulator {
                     UserRecord user = new UserRecord(userData[0], Float.parseFloat(userData[1]));
                     databaseConduit.save(user);
                 }
+                
             }
         }
     }
