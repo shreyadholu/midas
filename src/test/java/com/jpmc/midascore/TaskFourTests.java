@@ -20,11 +20,9 @@ public class TaskFourTests {
     @Autowired
     private UserPopulator userPopulator;
 
-
     @Autowired
     private FileLoader fileLoader;
 
-    
     @Autowired
     private UserRepository userRepository;
 
