@@ -1,5 +1,5 @@
 package com.jpmc.midascore.component;
-
+// packages that link with other files 
 import com.jpmc.midascore.entity.TransactionRecord;
 import com.jpmc.midascore.entity.UserRecord;
 import com.jpmc.midascore.foundation.Incentive;
