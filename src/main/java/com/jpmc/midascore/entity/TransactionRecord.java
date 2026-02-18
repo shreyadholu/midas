@@ -18,7 +18,7 @@ public class TransactionRecord {
     private float incentive; // NEW FIELD
 
     protected TransactionRecord() {}
-
+// this part will run
     public TransactionRecord(UserRecord sender, UserRecord recipient, float amount, float incentive) {
         this.sender = sender;
         this.recipient = recipient;
